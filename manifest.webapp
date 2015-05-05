@@ -1,0 +1,46 @@
+{
+  "name": "DemocracyWhy",
+  "description": "a islamic app",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/icons/icon16x16.png",
+    "48": "/icons/icon48x48.png",
+    "60": "/icons/icon60x60.png",
+    "128": "/icons/icon128x128.png"
+  },
+  "developer": {
+    "name": "MD.Riyaz",
+    "url": "http://gameappsbd.tk"
+  },
+  "default_locale": "en",
+  "activities": {
+  "share": {
+    "filters": {
+      "type": [ "image/png", "image/gif" ]
+    },
+    "href": "foo.html",
+    "disposition": "window",
+    "returnValue": true
+  }
+},
+  "type": "certified",
+  "chrome": { 
+    "navigation": true
+  },
+  "permissions": {
+  "contacts": {
+    "description": "Required for autocompletion in the share screen",
+    "access": "readcreate"
+    },
+  "alarms": {
+    "description": "Required to schedule notifications"
+  }
+},
+  "type": "privileged",
+  "permissions": {
+    "systemXHR": {
+      "description": "Required to download podcasts."
+    }
+  },
+    "version": "2.1"
+}
