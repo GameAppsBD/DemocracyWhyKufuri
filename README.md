@@ -1,0 +1,2 @@
+# DemocracyWhyKufuri
+DemocracyWhyKufuri
