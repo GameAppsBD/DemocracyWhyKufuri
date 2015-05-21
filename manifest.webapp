@@ -1,6 +1,6 @@
 {
   "name": "DemocracyWhy",
-  "description": "a islamic app",
+  "description": "এই অ্যাপ'টি গণতন্ত্র বিষয়ক একটি ইসলামিক অ্যাপ ।",
   "launch_path": "/index.html",
   "icons": {
     "16": "/icons/icon16x16.png",
